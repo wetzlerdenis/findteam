@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+
+    </script>
+    
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .pitch {
+        border-radius: 25px;
+      }
+
+      p {
+        padding-bottom: 3px;
+      }
+
+      button {
+      padding: 1.3em 3em;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      border: none;
+      background-color: #fff;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 45px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      outline: none;
+    }
+
+    button:hover {
+      background-color: #23c483;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+    }
+
+    button:active {
+      transform: translateY(-1px);
+    }
+/* 
+      .commit {
+        font-family: monospace;
+        font-size: 1.5rem;
+        color: #FAFAFA;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #FAFAFA;
+        background: #252525;
+        box-shadow: 3px 3px #fafafa;
+        cursor: pointer;
+        margin: 35px 0;
+      }
+
+      .commit:active {
+        box-shadow: none;
+        transform: translate(3px, 3px);
+      } */
+
+      .circle {
+        padding: 0 4px;
+      }
+
+      .box {
+        display: inline-block;
+        align-items: center;
+        width: 10px;
+        height: 10px;
+        padding: 1px;
+        border-radius: 50%;
+      }       
+
+      .red {
+        background-color: #ff605c;
+      }
+      
+      .yellow {
+       background-color: #ffbd44;
+      }
+      
+      .green {
+       background-color: #00ca4e;
+      }
+
+      .grey {
+        background-color: lightgray;
+      }
+
+    </style>
+
+
+</head>
+
+<body>
+
+  <!-- A grey horizontal navbar that becomes vertical on small screens -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <div class="container-fluid">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+    </ul>
+  </div>
+
+  </nav>
+  
+  <div class="row">
+      <div class=" col card pitch container m-5" style="width:400px">
+        <img class="card-img-top" src="./pitch_1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" > 2139 Neudorf-Weimershof pitch</h4>
+          <p class="card-text">
+            <p>
+                <button type="button" class="btn btn-outline-dark">Mon</button>
+
+                  <span>players</span>
+                  <span class="circle"><span class="red box"></span>
+                  <span class="circle"><span class="yellow box"></span>
+                  <span class="circle"><span class="yellow box"></span>
+                  <span class="circle"><span class="grey box"></span>
+                  <span class="circle"><span class="grey box"></span>
+                  <span class="circle"><span class="grey box"></span>
+                  <span class="circle"><span class="grey box"></span>
+                  <span class="circle"><span class="grey box"></span>
+                  <button type="button" class="btn btn-warning">Enroll</button>
+
+                
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Tue</button>
+              <span>players</span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <button type="button" class="btn btn-warning">Enroll</button>
+
+
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Wed</button>
+              <span>players</span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <button type="button" class="btn btn-warning">Enroll</button>
+
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Thu</button>
+              <span>players</span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <button type="button" class="btn btn-warning">Enroll</button>
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Fri</button>
+              <span>players</span>
+
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <span class="circle"><span class="grey box"></span>
+              <button type="button" class="btn btn-warning">Enroll</button>
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Sat</button>
+              <span>players</span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <button type="button" class="btn btn-outline-success">Assembled!</button>
+
+            </p>
+
+            <p>
+              <button type="button" class="btn btn-outline-dark">Sun</button>
+              <span>players</span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="green box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="yellow box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <span class="circle"><span class="red box"></span>
+              <button type="button" class="btn btn-outline-success">Assembled!</button>
+
+            </p>
+          <!-- <a href="#" class="btn btn-primary">See Profile</a>           -->
+            <p style="padding-top: 10px;">
+            <button class="commit">Directions</button>
+            <button class="commit">Suggest new time</button>
+          </p>
+
+        </div>
+      </div>
+
+
+      <div class="col card pitch container m-5 col" style="width:400px">
+        <img class="card-img-top" src="./pitch_2.jpg" alt="Card image">
+
+        <div class="card-body">
+        
+          <h4 class="card-title">Esch-sur-Alzette Gare pitch </h4>
+        
+          <p class="card-text">
+            <p>
+              <button type="button" class="btn btn-outline-dark">Mon</button>
+
+                <span>players</span>
+                <span class="circle"><span class="red box"></span>
+                <span class="circle"><span class="yellow box"></span>
+                <span class="circle"><span class="yellow box"></span>
+                <span class="circle"><span class="grey box"></span>
+                <span class="circle"><span class="grey box"></span>
+                <span class="circle"><span class="grey box"></span>
+                <span class="circle"><span class="grey box"></span>
+                <span class="circle"><span class="grey box"></span>
+                <button type="button" class="btn btn-warning">Enroll</button>
+
+              
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Tue</button>
+            <span>players</span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <button type="button" class="btn btn-warning">Enroll</button>
+
+
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Wed</button>
+            <span>players</span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <button type="button" class="btn btn-warning">Enroll</button>
+
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Thu</button>
+            <span>players</span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <button type="button" class="btn btn-warning">Enroll</button>
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Fri</button>
+            <span>players</span>
+
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <span class="circle"><span class="grey box"></span>
+            <button type="button" class="btn btn-warning">Enroll</button>
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Sat</button>
+            <span>players</span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <button type="button" class="btn btn-outline-success">Assembled!</button>
+
+          </p>
+
+          <p>
+            <button type="button" class="btn btn-outline-dark">Sun</button>
+            <span>players</span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="green box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="yellow box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <span class="circle"><span class="red box"></span>
+            <button type="button" class="btn btn-outline-success">Assembled!</button>
+
+          </p>
+          
+          
+          </p>
+          
+        
+          <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+          <button class="commit">Directions</button>
+          <button class="commit">Suggest new time</button>
+
+        
+        </div>
+      </div>
+    
+  </div>
+</body>
+</html>
